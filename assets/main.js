@@ -32,7 +32,7 @@ function TotalPrice(){
         ticketPrice = upperDiscount.toFixed(2);
     } 
     else{
-        ticketPrice = ticketForOld.toFixed(2)
+        ticketPrice = ticketPrice.toFixed(2)
     }
     
    document.getElementById ("result").innerHTML = "Total cost is:" + "" + ticketPrice + "€"
