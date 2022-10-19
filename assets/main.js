@@ -29,7 +29,7 @@ function TotalPrice(){
         ticketPrice = ticketForChild.toFixed(2);
     }
     else if (valueAge >= 65){
-        ticketPrice = upperDiscount.toFixed(2);
+        ticketPrice = ticketForOld.toFixed(2);
     } 
     else{
         ticketPrice = ticketPrice.toFixed(2)
