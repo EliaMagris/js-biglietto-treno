@@ -18,7 +18,7 @@ function TotalPrice(){
 
     // discount for old people
     
-    let upperDiscount = (ticketPrice / 100) * 20;
+    let upperDiscount = (ticketPrice / 100) * 40;
     let ticketForOld = ticketPrice - upperDiscount
 
     // const ticketForOld = ticketPrice - upperDiscount;
@@ -35,6 +35,5 @@ function TotalPrice(){
         ticketPrice = ticketForOld.toFixed(2)
     }
     
-
    document.getElementById ("result").innerHTML = "Total cost is:" + "" + ticketPrice + "€"
 }
